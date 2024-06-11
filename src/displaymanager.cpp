@@ -63,10 +63,15 @@ public:
 };
 
 QHash<Orientation, Rotation> orientation2rotation {
-  {TopUp, RR_Rotate_0},
-  {TopDown, RR_Rotate_180},
-  {LeftUp, RR_Rotate_90},
-  {RightUp, RR_Rotate_270},
+  // {TopUp, RR_Rotate_0},
+  // {TopDown, RR_Rotate_180},
+  // {LeftUp, RR_Rotate_90},
+  // {RightUp, RR_Rotate_270},
+  //switch Built-in screen direction
+  {TopUp, RR_Rotate_270},
+  {TopDown, RR_Rotate_90},
+  {LeftUp, RR_Rotate_0},
+  {RightUp, RR_Rotate_180},
 };
 
 Orientation DisplayManager::Private::to_orientation(Rotation rotation)

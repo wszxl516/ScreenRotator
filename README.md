@@ -33,3 +33,4 @@ sudo make install
 
 Main icon: https://www.iconfinder.com/icons/326583/orientation_rotation_screen_icon#size=256
 
+##  for switch linux (kde) Built-in screen
